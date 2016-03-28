@@ -1,0 +1,293 @@
+html, body {
+	/*background-image: url("../pictures/beige-paper.png");*/
+	font-size: 16px;
+	max-width: 1500px;
+}
+
+p, h2, h3, li, a {
+	font-family: "Raleway", Georgia, serif; 
+}
+
+header {
+	height: 15vh;
+	border-bottom: 2px dotted #8b7570;
+}
+
+/* Logo */
+
+.logo {
+	color: #DD6517; 
+	font-family: "Anonymous Pro", "Lucida Console", Monaco, monospace, sans-serif;
+	font-weight: normal;
+	font-size: 3.125rem; /*50px*/
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+/* Nav Bar */
+
+nav ul {
+	display: flex;
+	justify-content: center;
+}
+
+nav li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #42BCBF /*#B7CCD0*/;
+	font-size: 1.125rem;
+	transition: all 0.3s ease 0.3s;
+}
+
+nav a:hover {
+	color: #23778B;
+}
+
+/* Supporting */
+
+.container {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.supporting {
+	width: 450px; 
+	height: 450px; 
+	margin: 10px 20px;
+}
+
+.supporting h2 {
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.supporting p {
+	margin: 0px 10px;
+}
+
+h2 {
+	color: #42BCBF;
+	font-weight: bold;
+	font-size: 1.563rem;
+}
+
+h2 a {
+	color: #42BCBF;
+	font-weight: bold;
+	font-size: 1.563rem;
+	text-decoration: none;
+	transition: all 0.3s ease 0.3s;
+}
+
+h2 a:hover {
+	color: #23778B;
+}
+
+.supporting p {
+	line-height: 1.5;
+	font-size: 1rem;
+	font-weight: normal;
+	
+}
+
+.supporting img {
+	width: 450px;
+	height: 300px;
+}
+
+.read-more {
+	color: #42BCBF;
+	font-weight: bold;
+	font-size: .75rem;
+	text-decoration: none;
+	transition: all 0.3s ease 0.3s;
+}
+
+.read-more:hover {
+	color: #23778B;
+	font
+}
+
+/* Footer */
+
+footer {
+	height: 15vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-top: 2px dotted #8b7570;
+}
+
+footer i {
+	color: #8b7570;
+	padding: 0px 10px;
+	transition: all 0.3s ease 0.3s;
+}
+
+footer i:hover {
+	color: #3b241d;
+}
+
+/*About*/
+
+.wrapper {
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 30px 0px;
+	width: 100%;
+}
+
+.about {
+	margin: 0px 20px;
+	width: 500px;
+	height: 350px;
+	line-height: 1.5;
+}
+
+.about h2 {
+	text-align: center;
+}
+
+.about img {
+	width: 500px;
+	height: 350px;
+}
+
+/*Contact*/
+
+
+#contact-form {
+  font-family: "Raleway", Georgia, serif;
+  width: 350px;
+  margin: 20px auto 20px;
+  padding: 20px;
+  background-image: url("../pictures/latte-art-web.jpg");
+  background-size: cover;
+  border-radius: 5px;
+}
+
+#contact-form > div {
+  margin-bottom: 20px;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+label[for="name"],
+label[for="message"],
+label[for="email"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+label[for="message-type"] {
+  margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  border: 1px solid #D8D5D5;
+  color: #3b241d;
+  font-size: 1.125rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  outline: 0;
+  border-color: #3b241d;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  display: block;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 50%;
+}
+
+textarea {
+  width: 97%;
+}
+
+input[type="submit"] {
+  background-color: #42BCBF; 
+  border: 0;
+  color: white;
+  font-size: 1.125rem;
+  padding: 10px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:active {
+  background-color: #23778B;
+  
+}
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 600px) {
+
+#contact-form {
+	width: 550px;
+}
+
+.about {
+
+}
+
+}
+
+@media screen and (min-width: 1000px) {
+
+.feature {
+	background: url("../pictures/oj-web.jpg") no-repeat center;
+	background-size: contain;
+	width: 100%;
+	height: 600px; 
+	display: flex;
+	justify-content: center;
+	margin: 30px 0px;
+}
+
+.button {
+	border: 2px solid #FFFCFF;
+	padding: 10px 20px;
+	font-size: 1.5em;
+	align-self: center;
+}
+
+.button a {
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease 0.3s;
+}
+
+.button a:hover {
+	color: #3b241d;
+}
+
+
+}
