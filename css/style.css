@@ -116,7 +116,6 @@ h2 a:hover {
 
 .read-more:hover {
 	color: #23778B;
-	font
 }
 
 /* Footer */
@@ -167,6 +166,10 @@ footer i:hover {
 
 /*Contact*/
 
+.result {
+	display:none;
+	text-align: center;
+}
 
 #contact-form {
   font-family: "Raleway", Georgia, serif;
