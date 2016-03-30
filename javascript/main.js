@@ -5,8 +5,8 @@ $(document).ready(function() {
    if ( $('#message').val() == '' ) {
       alert('Please type a message.');
    } else {
-      $('#contact-form').fadeOut( 800 );
-      	$('#result').fadeIn( 500 );
+      $('#contact-form').hide();
+      $('.result').fadeIn( 1000 );
    }
 	});
 

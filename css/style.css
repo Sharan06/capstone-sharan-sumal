@@ -169,6 +169,7 @@ footer i:hover {
 .result {
 	display:none;
 	text-align: center;
+	margin: 20px;
 }
 
 #contact-form {
