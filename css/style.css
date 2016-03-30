@@ -275,6 +275,8 @@ input[type="submit"]:active {
 
 }
 
+/*720px as a breakpoint didn't make sense for my site*/
+
 @media screen and (min-width: 850px) {
 
 .feature {
