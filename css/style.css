@@ -164,6 +164,16 @@ footer i:hover {
 	height: 250px;
 }
 
+.about a {
+	text-decoration: none;
+	color: #42BCBF;
+	transition: all 0.3s ease 0.3s;
+}
+
+.about a:hover {
+	color: #23778B;
+}
+
 /*Contact*/
 
 .result {
